@@ -1,4 +1,4 @@
-#Setup:
+# Setup:
 
 * Spin up a mysql server on docker with `sudo docker run -p 13306:3306 --name mysql-docker-local -e MYSQL_ROOT_PASSWORD=Password -d mysql:latest`
 * Connect to the mysql server `mysql --host=127.0.0.1 --port=13306 -u root -pPassword` and add the following sql code
